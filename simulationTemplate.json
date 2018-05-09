@@ -1,0 +1,65 @@
+{
+	"data": {
+		"pairs": [
+			{
+				"request": {
+					"path": {
+						"exactMatch": "/test/endpoint/graphdata"
+					},
+					"method": {
+						"exactMatch": "GET"
+					},
+					"destination": {
+						"globMatch": "*"
+					},
+					"scheme": {
+						"exactMatch": "http"
+					},
+					"query": {
+						"exactMatch": ""
+					},
+					"body": {
+						"exactMatch": ""
+					}
+				},
+				"response": {
+					"status": 200,
+					"encodedBody": false,
+          "body": "<<DIAGRAM_BODY>>",
+					"headers": {
+						"Cache-Control": [
+							"private"
+						],
+						"Content-Type": [
+							"application/json; charset=utf-8"
+						],
+						"Date": [
+							"Wed, 21 Feb 2018 16:21:00 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Microsoft-IIS/8.5"
+						],
+						"X-Aspnet-Version": [
+							"4.0.30319"
+						],
+						"X-Ua-Compatible": [
+							"IE=9"
+						]
+					},
+					"templated": false
+				}
+			}
+		],
+		"globalActions": {
+			"delays": []
+		}
+	},
+	"meta": {
+		"schemaVersion": "v4",
+		"hoverflyVersion": "v0.15.1",
+		"timeExported": "2018-02-21T16:22:11Z"
+	}
+}
